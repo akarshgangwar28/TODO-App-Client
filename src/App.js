@@ -9,7 +9,7 @@ class App extends React.Component
     return(
       <div>
         <img src={logo} width="80" height="80" className='logo'/>
-        <h1 className='app-title' > TODO APP</h1>
+        <h1 className='app-title' > Today's Tasks</h1>
         <div className="container">
         
 
@@ -28,8 +28,17 @@ class App extends React.Component
             <li>
               <input type="checkbox" name=""  />
               Buy some Milk
+              
               <button className='btn'>Delete</button>
             </li>
+
+            <li>
+              <input type="checkbox" name=""  />
+              Assignment
+              
+              <button className='btn'>Delete</button>
+            </li>
+
             </ul> 
          
          </div>
